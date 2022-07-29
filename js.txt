@@ -1,0 +1,77 @@
+variavel : aloca um determinado valor na memoria e retorna quando chamado.
+
+existem três tipos de variáveis em javascript.
+
+let : para escopo local, mutável(reatribuir) e é usado na maioria das vezes.
+
+const: escopo local e imutável. - É preferivel usar const, quando não for alterar valores.
+
+var: escopo global e é mutável.
+
+Usa-se o camelCase para nomear as variaveis.
+
+Tipos primitivos;
+
+Tipo de valor:
+
+String - literal.
+number - literal.
+boolean - ajuda a criar regras.
+null - resetar um valor.
+
+Tipo de Referência:
+
+
+JavaScipt - É uma linguagem dinâmica.
+Não há diferencial de tipo numerico em Js.
+
+Objeto: 
+
+- É uma entidade que possui estado e comportamento, valores e atributos.
+Sempre há chave e valor.
+
+let pessoa = {
+   nome: 'Eros', ...
+};
+
+pessoa.nome; retorna o que há dentro da var nome que esta alocado dentro do objeto pessoa.
+
+Arrays:
+
+Conjunto de dados que pode ser acessado por um índice.
+Posso alocar qualquer valor dentro de um array.
+Array tem vários métodos.
+
+Função:
+
+Controla o flúxo de execução, entrada e saída de dados.
+ Para nomear devo colocar um verbo + Substantivo.
+
+//Realiza uma tarefa e não devolve nada.(Não há o return)
+
+// Retorna algo.
+
+Operadores:
+
+Aritiméticos -
+
+operadores mate,áticos. +, -, /, ** 
+
+++ -- : operadores de incremento e decremento
+
+Atribuição -
+
+obs* podendo ser qualquer var exemplo A & B;
+
+=: atribuir
++= : A variavel + a variavel
+-= : A variavel - a variavel
+
+Comparação - 
+ igualdade estrita === - comparando o valor e o tipo, retornando verdadeiro ou falso.
+ igualdade solta == - Compara apenas o valor.	
+Lógicos - 
+
+Bitwise -
+
+
